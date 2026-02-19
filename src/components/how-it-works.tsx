@@ -11,7 +11,7 @@ const steps = [
   {
     icon: Shield,
     title: "Policy gate evaluates",
-    description: "ClawPay checks your rules: amount thresholds, daily limits, merchant blocklists, keyword filters.",
+    description: "ClawPayer checks your rules: amount thresholds, daily limits, merchant blocklists, keyword filters.",
   },
   {
     icon: CreditCard,

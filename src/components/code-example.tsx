@@ -6,17 +6,17 @@ const tabs = [
   {
     label: "Quick Start",
     code: `# Install and initialize
-npx clawpay init
+npx clawpayer init
 
 # Add your card (encrypted locally)
-npx clawpay add-card
+npx clawpayer add-card
 
 # Start the MCP server
-npx clawpay serve`,
+npx clawpayer serve`,
   },
   {
     label: "Config",
-    code: `# ~/.clawpay/config.yaml
+    code: `# ~/.clawpayer/config.yaml
 policies:
   autoApproveUnder: 25.00
   requireApprovalAbove: 25.00
@@ -36,18 +36,18 @@ approval:
     code: `// Claude Desktop / Cursor MCP config
 {
   "mcpServers": {
-    "clawpay": {
+    "clawpayer": {
       "command": "npx",
-      "args": ["clawpay", "serve"]
+      "args": ["clawpayer", "serve"]
     }
   }
 }`,
   },
   {
     label: "As Library",
-    code: `import { ClawPay } from "clawpay";
+    code: `import { ClawPayer } from "clawpayer";
 
-const cp = await ClawPay.load();
+const cp = await ClawPayer.load();
 const result = await cp.requestCard({
   amount: 29.99,
   merchant: "cool-store.com",

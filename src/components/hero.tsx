@@ -17,7 +17,7 @@ export function Hero() {
         className="relative z-10 flex max-w-3xl flex-col items-center text-center"
       >
         <Badge variant="secondary" className="mb-6 gap-2 px-4 py-1.5 text-sm">
-          <img src="/logo.png" alt="ClawPay" className="size-5" />
+          <img src="/logo.png" alt="ClawPayer" className="size-5" />
           Part of the OpenClaw ecosystem
         </Badge>
 
@@ -30,7 +30,7 @@ export function Hero() {
         <p className="mt-6 max-w-xl text-pretty text-lg text-muted-foreground">
           Self-hosted. Open source. No SaaS. No bullshit.
           <br />
-          Your agent shops. ClawPay pays. You set the rules.
+          Your agent shops. ClawPayer pays. You set the rules.
         </p>
 
         <motion.div
@@ -42,7 +42,7 @@ export function Hero() {
           <Button size="lg" className="gap-2" asChild>
             <a href="#quickstart">
               <Terminal className="size-4" />
-              npx clawpay init
+              npx clawpayer init
             </a>
           </Button>
           <Button variant="outline" size="lg" className="gap-2" asChild>

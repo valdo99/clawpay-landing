@@ -9,7 +9,7 @@ const channels = [
     label: "Terminal",
     icon: Terminal,
     messages: [
-      { type: "system" as const, text: "ClawPay: Payment request received" },
+      { type: "system" as const, text: "ClawPayer: Payment request received" },
       { type: "info" as const, text: '$89.99 → tokyo-cameras.jp\n"Vintage Nikon F3 Camera"' },
       { type: "prompt" as const, text: "Approve this payment? [y/n]" },
       { type: "user" as const, text: "y" },
@@ -21,7 +21,7 @@ const channels = [
     label: "Telegram",
     icon: MessageCircle,
     messages: [
-      { type: "bot" as const, text: "🦞 ClawPay — Approval Request" },
+      { type: "bot" as const, text: "🦞 ClawPayer — Approval Request" },
       { type: "bot" as const, text: "Amount: $89.99\nMerchant: tokyo-cameras.jp\nItem: Vintage Nikon F3 Camera" },
       { type: "bot" as const, text: "Reply /approve or /deny" },
       { type: "user" as const, text: "/approve" },
@@ -33,7 +33,7 @@ const channels = [
     label: "WhatsApp",
     icon: MessageCircle,
     messages: [
-      { type: "bot" as const, text: "🦞 ClawPay needs your approval" },
+      { type: "bot" as const, text: "🦞 ClawPayer needs your approval" },
       { type: "bot" as const, text: "$89.99 at tokyo-cameras.jp\nVintage Nikon F3 Camera" },
       { type: "bot" as const, text: "Reply YES to approve, NO to deny" },
       { type: "user" as const, text: "YES" },
@@ -45,7 +45,7 @@ const channels = [
     label: "Slack",
     icon: Hash,
     messages: [
-      { type: "bot" as const, text: "🦞 ClawPay — New Payment Request" },
+      { type: "bot" as const, text: "🦞 ClawPayer — New Payment Request" },
       { type: "bot" as const, text: "*$89.99* to `tokyo-cameras.jp`\n> Vintage Nikon F3 Camera" },
       { type: "bot" as const, text: "Click to respond: [Approve] [Deny]" },
       { type: "user" as const, text: "Clicked: Approve" },

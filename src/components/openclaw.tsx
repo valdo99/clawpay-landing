@@ -15,12 +15,12 @@ export function OpenClaw() {
         transition={{ duration: 0.5, ease: "easeOut" }}
         className="mx-auto max-w-3xl rounded-2xl border border-border/50 bg-card p-10 text-center sm:p-14"
       >
-        <img src="/logo.png" alt="ClawPay" className="mx-auto mb-6 size-16" />
+        <img src="/logo.png" alt="ClawPayer" className="mx-auto mb-6 size-16" />
         <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">
           Part of the OpenClaw ecosystem
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-pretty text-muted-foreground">
-          ClawPay is a native plugin for{" "}
+          ClawPayer is a native plugin for{" "}
           <a
             href="https://github.com/openclaw/openclaw"
             target="_blank"
@@ -38,13 +38,13 @@ export function OpenClaw() {
 
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button size="lg" asChild>
-            <a href="https://github.com/valdo99/clawpay" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/valdo99/clawpayer" target="_blank" rel="noopener noreferrer">
               View on GitHub
               <ArrowRight className="ml-2 size-4" />
             </a>
           </Button>
           <div className="font-mono text-sm text-muted-foreground">
-            openclaw plugins install clawpay
+            openclaw plugins install clawpayer
           </div>
         </div>
       </motion.div>
